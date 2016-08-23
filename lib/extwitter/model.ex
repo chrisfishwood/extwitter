@@ -76,7 +76,7 @@ defmodule ExTwitter.Model.Entities do
 end
 
 defmodule ExTwitter.Model.Trend do
-  defstruct events: nil, name: nil, promoted_content: nil, query: nil
+  defstruct events: nil, name: nil, promoted_content: nil, query: nil, tweet_volume: nil
 
   @type t :: %__MODULE__{}
 end
